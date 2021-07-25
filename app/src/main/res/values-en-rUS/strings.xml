@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nice</string>
+    <string name="string1">Login Please</string>
+    <string name="string2">Login</string>
+    <string name="tonext">OK</string>
+    <string name="ID_hint">ID</string>
+    <string name="PW_hint">PW</string>
+    <string name="errortext">error in Logging in.</string>
+    <string name="ID_display">"ID : "</string>
+    <string name="PW_display">"PW : "</string>
+    <string name="B_display">" "</string>
+</resources>

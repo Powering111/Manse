@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/ID_hint"
+        android:id="@+id/idEdit"></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pwEdit"
+        android:layout_below="@id/idEdit"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="@string/PW_hint"></EditText>
+    <Button
+        style=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pwEdit"
+        android:id="@+id/btn1"
+        android:text="@string/tonext"></Button>
+
+</RelativeLayout>
